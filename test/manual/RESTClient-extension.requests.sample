@@ -1,0 +1,32 @@
+#### !!! DON'T CHANGE VALUES HERE !!!
+#### !!! DON'T COMMIT ANY INSERTED VALUES !!!
+#### instead copy this file to "RESTClient-extension.requests", which gets git-ignored!
+####
+#### use this with vs code extension "REST Client" (humao.rest-client)
+####
+
+#################################
+######## Serverless Cat #########
+#################################
+
+http://localhost:7072/
+Authorization: Bearer eyJ...
+
+###
+
+https://idandaccess-serverless-cat.azurewebsites.net/
+x-functions-key: adsf...
+Authorization: Bearer eyJ...
+
+##################################
+######## Serviceful Dog  #########
+##################################
+
+http://localhost:7073/get-a-cat
+Authorization: Bearer eyJ
+
+###
+
+https://serviceful-dog.azurewebsites.net/get-a-cat
+x-functions-key: asdf...
+Authorization: Bearer eyJ...

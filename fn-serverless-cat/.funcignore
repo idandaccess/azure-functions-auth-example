@@ -1,0 +1,9 @@
+*.js.map
+*.ts
+.git*
+.vscode
+.nvmrc
+local.settings.json
+local.settings.example.json
+tsconfig.json
+test

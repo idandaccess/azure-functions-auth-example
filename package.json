@@ -1,0 +1,24 @@
+{
+  "name": "@idandaccess/azure-functions-auth-example",
+  "version": "1.0.0",
+  "scripts": {
+    "deploy": "(cd fn-serverless-cat && npm run build) && (cd fn-serviceful-dog && npm run build) && (cd fn-token-renewer && npm run build) && pulumi up"
+  },
+  "description": "",
+  "dependencies": {
+    "@pulumi/azure": "^1.2.0",
+    "@pulumi/pulumi": "^1.0.0"
+  },
+  "devDependencies": {
+    "@azure/functions": "^1.0.3",
+    "@types/node": "^8.0.0",
+    "@types/request-promise": "^4.1.44",
+    "dotenv": "^8.1.0",
+    "dotenv-cli": "^2.0.1",
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.4"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}

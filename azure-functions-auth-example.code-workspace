@@ -1,0 +1,36 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "fn-token-renewer"
+    },
+    {
+      "path": "fn-serverless-cat"
+    },
+    {
+      "path": "fn-serviceful-dog"
+    },
+    {
+      "path": "cf-workers"
+    }
+  ],
+  "settings": {
+    "debug.internalConsoleOptions": "neverOpen",
+    "rest-client.fontSize": 16,
+    "explorer.autoReveal": false
+  },
+  "launch": {
+    "configurations": [],
+    "compounds": [
+      {
+        "name": "Attach to all apps",
+        "configurations": [
+          "Attach to serverless-cat (global tools)",
+          "Attach to serviceful-dog (global tools)"
+        ]
+      }
+    ]
+  }
+}

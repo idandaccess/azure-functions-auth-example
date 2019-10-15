@@ -1,0 +1,19 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_EXTENSION_VERSION": "~2",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "WEBSITE_NODE_DEFAULT_VERSION": "10.14.1",
+    "AzureWebJobsStorage": "",
+    "IDP_TOKEN_ENDPOINT": "",
+    "CAT_API_ID": "",
+    "DOG_CLIENT_ID": "",
+    "TOKEN_RENEWER_KEY_VAULT_URI": "",
+    "DOG_CLIENT_SECRET_NAME": "",
+    "DOG_KEY_VAULT_ACCESS_TOKENS_URI": "",
+    "CAT_API_ACCESS_TOKEN_NAME": ""
+  },
+  "Host": {
+    "CORS": "*"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Attach to serverless-cat (global tools)",
+      "type": "node",
+      "request": "attach",
+      "port": 9239,
+      "preLaunchTask": "func: host start --port 7072"
+    },
+    {
+      "name": "Attach to serverless-cat (local tools)",
+      "type": "node",
+      "request": "attach",
+      "port": 9240,
+      "preLaunchTask": "func start local --port 7072"
+    }
+  ]
+}

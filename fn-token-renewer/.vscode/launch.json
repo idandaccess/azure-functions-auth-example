@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Attach to token-renewer (global tools)",
+      "type": "node",
+      "request": "attach",
+      "port": 9229,
+      "preLaunchTask": "func: host start --port 7071"
+    },
+    {
+      "name": "Attach to token-renewer (local tools)",
+      "type": "node",
+      "request": "attach",
+      "port": 9230,
+      "preLaunchTask": "func start local --port 7071"
+    }
+  ]
+}

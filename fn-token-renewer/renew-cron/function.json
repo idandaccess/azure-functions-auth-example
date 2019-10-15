@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "myTimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 */5 * * * *",
+      "runOnStartup": true
+    }
+  ],
+  "scriptFile": "../dist/renew-cron/index.js"
+}

@@ -1,0 +1,8 @@
+{
+  "files.exclude": {
+    "fn-serverless-cat": true,
+    "fn-token-renewer": true,
+    "fn-serviceful-dog": true,
+    "cf-workers": true
+  }
+}

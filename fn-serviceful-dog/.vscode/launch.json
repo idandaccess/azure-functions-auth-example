@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Attach to serviceful-dog (global tools)",
+      "type": "node",
+      "request": "attach",
+      "port": 9249,
+      "preLaunchTask": "func: host start --port 7073"
+    },
+    {
+      "name": "Attach to serviceful-dog (local tools)",
+      "type": "node",
+      "request": "attach",
+      "port": 9250,
+      "preLaunchTask": "func start local --port 7073"
+    }
+  ]
+}

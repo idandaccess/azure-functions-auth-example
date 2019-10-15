@@ -1,0 +1,15 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_EXTENSION_VERSION": "~2",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "WEBSITE_NODE_DEFAULT_VERSION": "10.14.1",
+    "AzureWebJobsStorage": "",
+    "CAT_API_ID": "",
+    "AUTH_ISSUER_DOMAIN_AUTH0": "",
+    "AUTH_ISSUER_PUBKEY_AUTH0": ""
+  },
+  "Host": {
+    "CORS": "*"
+  }
+}

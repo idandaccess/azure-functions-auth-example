@@ -1,0 +1,9 @@
+config:
+  azure:environment: public
+  azure:location: westeurope
+  idandaccess--azure-functions-auth-example:rgName: idandaccess--azure-functions-auth-example
+  idandaccess--azure-functions-auth-example:appNameDog: serviceful-dog
+  idandaccess--azure-functions-auth-example:appNameCat: idandaccess-serverless-cat
+  idandaccess--azure-functions-auth-example:tokenRenewerAppName: idandaccess-token-renewer
+  idandaccess--azure-functions-auth-example:dogKeyVaultAccessTokensName: dog-access-tokens
+  idandaccess--azure-functions-auth-example:tokenRenewerKeyVaultClientSecretsName: m2m-client-secrets
