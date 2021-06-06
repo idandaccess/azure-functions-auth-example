@@ -7,7 +7,7 @@
   "description": "",
   "dependencies": {
     "@pulumi/azure": "^1.2.0",
-    "@pulumi/pulumi": "^1.0.0"
+    "@pulumi/pulumi": "1.14.1"
   },
   "devDependencies": {
     "@azure/functions": "^1.0.3",
