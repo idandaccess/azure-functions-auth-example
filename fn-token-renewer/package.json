@@ -19,7 +19,7 @@
   "dependencies": {
     "@azure/identity": "^1.0.0-preview.5",
     "@azure/keyvault-secrets": "^4.0.0-preview.8",
-    "@types/node": "^12.7.12",
+    "@types/node": "14.17.27",
     "jwt-decode": "^2.2.0",
     "request": "^2.88.0",
     "request-promise": "^4.2.4"
