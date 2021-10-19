@@ -16,7 +16,7 @@
     "dotenv": "^8.1.0",
     "dotenv-cli": "^2.0.1",
     "prettier": "^1.18.2",
-    "typescript": "^3.6.4"
+    "typescript": "3.9.10"
   },
   "jest": {
     "testEnvironment": "node"
